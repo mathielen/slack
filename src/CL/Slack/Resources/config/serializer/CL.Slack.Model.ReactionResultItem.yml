@@ -1,0 +1,8 @@
+CL\Slack\Model\ReactionResultItem:
+    properties:
+        name:
+            type: string
+        count:
+            type: integer
+        users:
+            type: array<string>

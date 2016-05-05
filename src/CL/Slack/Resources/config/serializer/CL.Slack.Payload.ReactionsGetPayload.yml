@@ -1,0 +1,12 @@
+CL\Slack\Payload\ReactionsGetPayload:
+    properties:
+        file:
+            type: string
+        file_comment:
+            type: string
+        channel:
+            type: string
+        timestamp:
+            type: string
+        full:
+            type: boolean

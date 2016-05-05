@@ -1,0 +1,8 @@
+CL\Slack\Payload\ReactionsGetPayloadResponse:
+    properties:
+        type:
+            type: string
+        channel:
+            type: string
+        message:
+            type: CL\Slack\Model\ReactionResult

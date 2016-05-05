@@ -1,0 +1,4 @@
+CL\Slack\Model\ReactionResult:
+    properties:
+        reactions:
+            type: array<CL\Slack\Model\ReactionResultItem>

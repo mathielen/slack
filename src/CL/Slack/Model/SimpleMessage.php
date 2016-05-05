@@ -107,4 +107,13 @@ class SimpleMessage extends AbstractModel
     {
         return $this->text;
     }
+
+    /**
+     * @return array
+     */
+    public function getAttachments()
+    {
+        return $this->attachments;
+    }
+    
 }
